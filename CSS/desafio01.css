@@ -1,0 +1,64 @@
+body{
+    font-family: arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8; /* Cinza Claro*/
+}
+h1{
+    text-align: center;
+    margin-top: 50px;
+    color: #333; /*Cinza Escuro*/
+}
+p{
+    text-align: justify;
+    color: #555;
+    margin: 5px;
+}
+.Destaque{
+    font-size: 24px;
+    font-weight: bold;
+
+}
+button{
+    background-color: rgb(80, 121, 246);
+    color: white;
+    border-width: 0vmax;
+    font-size: medium;
+}
+div{
+    background-color: rgb(80, 121, 246);
+    margin: 5px;
+    padding: 5px;
+}
+
+.Font{
+    color: lightslategray;
+}
+
+image{
+    text-align: center;
+}
+#Centro{
+    text-align: center;
+}
+
+table{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 8px;
+    width: 100%;
+    padding: 10px;
+    background: #fafafa;
+    border-style: inherit;
+}
+
+th{
+    background-color: rgb(3, 174, 3);
+    border-style: inherit;
+    color: white;
+    border-radius: 0%;
+    border-bottom: 0cqmax;
+}
+td{
+    border-color:ligh 
+}

@@ -1,0 +1,16 @@
+body{
+    background-color: black;
+    margin:5%
+}
+
+h1{
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+    text-align: center;
+}
+
+p{
+    color: white;
+    text-align: justify;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow';
+}

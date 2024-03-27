@@ -1,0 +1,18 @@
+body{
+    background-color: rgb(65, 120, 55);
+}
+#cor_text{
+    color: aqua;
+}
+.top{
+    background-color: rgb( 10, 10, 10);
+}
+.meio{
+    background-color: rgb(2, 14, 83);
+}
+.down{
+    background-color: brown;
+}
+.destaque{
+    color: deeppink;
+}

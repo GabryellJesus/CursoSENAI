@@ -1,0 +1,21 @@
+.cent{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+}
+.coluna{
+    columns: 2;
+    column-rule: solid 1px;
+    column-rule-color: #d95062;
+}
+h1{
+    text-align: center;
+    text-shadow: 1px 1px 1px black;
+}
+p{
+    text-align: left;
+}
+.centra{
+    text-align: center;
+}

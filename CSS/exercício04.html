@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício 04 - CSS</title>
+    <style>
+        body{
+            background-color: rgb(220, 234, 178);
+        }
+        h1{
+            color: rgb( 223 , 120, 87);
+            text-align: center;
+        }
+        h2{
+            color:rgb( 231 , 87, 133);
+            text-align: center;
+        }
+        .font{
+            color: rgb( 97, 113, 67);
+            font-family: Arial, Helvetica, sans-serif;
+            text-align: justify;
+            text-align: center;
+        }
+        #cor_fundo{
+            background-color: rgb(237, 233, 213);
+        }
+    </style>
+</head>
+<body id="cor_fundo">
+    <h1>
+        Seletores
+    </h1>
+    <h2>
+        Seletor de TAG
+    </h2>
+    <p class="font">
+        Ao usar o seletor tipo TAG em H1 e H2 todos os elementos desse tipo vão herdar os estilos definidos pelo código CSS
+    </p>
+    <h2>
+        Seletores tipo .ID
+    </h2>
+    <p class="font">
+        O seletor tipo #id deve ser usado uma única vez no arquivo! Cada elemento pode ter apenas um ID. Cada página pode ter apenas um elemento com aquele ID.
+    </p>
+    <h2>Seletor de Classe</h2>
+    <p class="font">Qualquer informação de estilo que precise ser aplicada a multiplos elementos 
+    em uma página deve ser feita em uma classe. Você pode usar a mesma classe para vários elementos. Você pode usar várias classes para um mesmo elemento</p>
+</body>
+</html>
