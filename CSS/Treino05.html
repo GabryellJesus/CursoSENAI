@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Combinando Seletores - CSS</title>
+    <style>
+        div p {
+            color: red;
+        }
+
+        div p {
+            color: green;
+        }
+
+        div~p {
+            color: purple;
+            text-align: center;
+        }
+
+        #identif p {
+            color: blue;
+        }
+
+        .classe p {
+            color: rgb(226, 43, 186)
+        }
+    </style>
+</head>
+<body>
+    <div>
+        <h1>SELETORES</h1>
+        <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Quae amet quasi quas ut, quibusdam voluptates
+            doloremque at culpa nisi est atque nobis, aliquid quidem nesciunt aut, ducimus asperiores a sint?
+        </p>
+        <article>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Saepe incidunt sapiente tempora voluptates dicta
+            unde quas corrupti nobis tenetur culpa, itaque nemo repellendus minima quo doloremque minus nesciunt quis
+            voluptatum.
+        </article>
+    </div>
+    <div id="identif">
+        <h2>EXEMPLO</h2>
+            <p>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed repellendus ea fugiat, mollitia officia architecto
+                illo pariatur veniam quam distinctio eum laboriosam, libero quis voluptatem excepturi rerum nesciunt
+                consequuntur recusandae!
+            </p>
+    </div>
+    <div class="classe">
+        <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Odio deleniti eius vitae consequuntur harum neque tempora natus officiis veniam facere pariatur sit perspiciatis libero voluptatibus praesentium, omnis aspernatur ullam voluptate.
+        </p>
+    </div>
+</body>
+</html>
