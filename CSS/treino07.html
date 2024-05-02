@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Treino 07</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Jersey+10&family=Orbitron:wght@400..900&family=Tac+One&display=swap');
+        * {
+            margin: 0 auto;
+            padding: 0;
+        }
+        ul{
+            font-family: "Tac One", sans-serif;
+        }
+
+        .menu {
+            background-color: #282829;
+            width: 100%;
+            height: 40px;
+        }
+
+        .menu ul li {
+            background-color: #282829;
+            color: white;
+            float: left;
+            width: 100px;
+            height: 40px;
+            display: inline-block;
+            text-align: center;
+            line-height: 40px;
+            position: relative;
+        }
+
+        .menu ul li:hover {
+            background-color: rgb(75, 75, 238);
+        }
+
+        .menu ul {
+            padding: 0;
+        }
+
+        .menu ul ul {
+            display: none;
+        }
+
+        .menu ul li:hover>ul {
+            display: block;
+        }
+
+        .menu ul ul ul {
+            margin-left: 102px;
+            position: absolute;
+            top: 0px;
+        }
+
+        .menu ul ul li:hover {
+            background-color: rgb(17, 17, 143);
+        }
+
+        .menu ul ul ul li:hover {
+            background-color: rgb(5, 5, 74);
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <nav class="menu">
+            <ul>
+                <li>Norte</li>
+                <li>Nordeste
+                    <ul>
+                        <li>Bahia</li>
+                        <li>Pernambuco</li>
+                        <li>Ceará
+                            <ul>
+                                <li>Capital</li>
+                                <li>Interior</li>
+                            </ul>
+                        </li>
+                        <li>Sergipe</li>
+                        <li>Alagoas</li>
+                        <li>Rio G Norte</li>
+                    </ul>
+                </li>
+                <li>Centro Oeste</li>
+                <li>Sudeste</li>
+                <li>Sul
+                    <ul>
+                        <li>Rio G. Sul</li>
+                        <li>Paraná</li>
+                        <li>Sana Catarina
+                            <ul>
+                                <li>Capital</li>
+                                <li>Interior</li>
+                            </ul>
+                        </li>
+                    </ul>
+                </li>
+            </ul>
+        </nav>
+    </header>
+</body>
+</html>
