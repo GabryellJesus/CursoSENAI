@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Layout Fixo</title>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Ubuntu:wght@700&display=swap');
+        body{
+            background-color: rgb(160, 156, 156);
+            font-family: 'Ubuntu', sans-serif;
+        }
+        #conteiner{
+            width: 95%;
+            margin: 0 auto;
+            background-color: aliceblue;
+            min-width: 750px;
+            max-width: 1000px;
+        }
+        .cabe{
+            background-color: #225992 url(Imagem/cabecalho2.jpg) no-repeat center;
+            height: 100px;
+            text-align: center;
+            line-height: 100px;
+        }
+        .menu{
+            width: 18%;
+            float: left;
+            text-align: center;
+            height: 400px;
+        }
+        .menu ul{
+            margin: 0;
+            padding: 0;
+            text-indent: 20px;
+            list-style: none;
+            height: 50px;
+         }
+        .menu ul a{
+            text-decoration: none;
+            color: black;
+            line-height: 50px;
+        }
+        .menu ul li:hover{
+            background-color: grey;
+        }
+        .conteudo{
+            width: 80%;
+            float: right;
+        }
+        .cont_01{
+            width: 58%;
+            float: left;
+        }
+        .conteudo p{
+            padding: 10px;
+            text-align: justify;
+        }
+        .cont_02{
+            width: 40%;
+            float: right;
+        }
+        .roda{
+            height: 60px;
+            text-align: center;
+            line-height: 60px;
+        }
+        .clear{
+            clear: both;
+        }
+        img.img-noticia{
+            width: 94%;
+            padding: 2%;
+        }
+    </style>
+</head>
+<body>
+    <div id="conteiner">
+        <div class="cabe">
+            LOGO
+        </div>
+        <div class="menu">
+            <ul>
+                <li><a href="#">HOME</a></li>
+                <li><a href="#">VENDA</a></li>
+                <li><a href="#">COMPRA</a></li>
+                <li><a href="#">ALUGUEL</a></li>
+                <li><a href="#">FINANCIAMENTO</a></li>
+                <li><a href="#">REFORMA</a></li>
+                <li><a href="#">PLANTAS</a></li>
+                <li><a href="#">SOBRE</a></li>  
+            </ul>
+        </div>
+        <div class="conteudo">
+            <div class="cont_01">
+                <h2>Lorem ipsum dolor</h2>
+                <img class="img-noticia" src="Imagem/natureza.jpg" alt="">
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, ullam maiores quos, hic in reiciendis nostrum nulla mollitia explicabo illum quae atque quaerat minima officiis quisquam iusto doloremque sint eligendi.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa veritatis velit nobis, ipsam expedita vero molestias non suscipit corrupti, rerum obcaecati perferendis temporibus, eaque fuga. Placeat iusto aspernatur delectus vitae.
+                </p>
+                <p>               
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, ullam maiores quos, hic in reiciendis nostrum nulla mollitia explicabo illum quae atque quaerat minima officiis quisquam iusto doloremque sint eligendi.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa veritatis velit nobis, ipsam expedita vero molestias non suscipit corrupti.
+                </p>
+            </div>
+            <div class="cont_02">
+                <h2>Lorem ipsum dolor</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quas, ullam maiores quos, hic in reiciendis nostrum nulla mollitia explicabo illum quae atque quaerat minima officiis quisquam iusto doloremque sint eligendi.
+                </p>
+                <p>               
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsa veritatis velit nobis, ipsam expedita vero molestias non suscipit corronsectetur adipisicing elit. Ipsa veritatis velit nobis, ipsam expedita vero molestias non suscipit corrupti, rerum obcaecati perferendis temporibus, eaque fuga. Placeat iusto aspernatur delectus vitae.
+                </p>
+            </div>
+        </div>
+        <div class="clear"></div>
+        <div class="roda">
+            RODAPÉ
+        </div>
+    </div>
+</body>
+</html>

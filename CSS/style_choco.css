@@ -1,0 +1,148 @@
+*{
+    margin: 0 auto;
+    padding: 0;
+}
+body{
+    background-color: #fde8b3;
+}
+a{
+    text-decoration: none;
+    color: #fde8b3;
+}
+.esq {
+    float: left;
+}
+.top1{
+    background-color: #fde8b3;
+    height: 80px;
+    padding: 20px;
+}
+.top11{
+    background-color: #fde8b3;
+    height: 60px;
+    padding: 40px;
+}
+.esq_1 {
+    float: left;
+    width: 200px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #3d2a1b;
+}       
+.esq_2 {
+    float: left;
+    width: 700px; 
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #3d2a1b;
+}
+.dir_2{
+    float: right;
+    margin-right: 100px;
+    margin-top: -10px;
+}
+.center{
+    text-align: right;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 40px;
+    float: left;
+    padding: 20px;
+}
+.dir{
+    float: right;
+    width: 250px;
+    margin-top: 15px;   
+}
+
+.dir_redes{
+    float: right;
+    padding-top: 20px;
+    margin-right: 10px;
+}
+
+.top2{
+    background-color: #533a26;
+    height: 30px;
+}
+.top21{
+    background-color: #533a26;
+    height: 40px;
+    width: 100%;
+}
+.top21 ul{
+    padding: 0;
+    max-width: 750px;
+}
+/* menu */
+.top21 ul li{
+    background-color: #533a26;
+    width: 150px;
+    height: 40px;
+    display: inline;       
+    line-height: 40px;
+    text-align: center;
+    float: left;
+    position: relative;           
+}
+.top21 ul li:hover{
+    background-color: #563c2f;
+}   
+.top21 ul ul{
+    display: none;
+}
+/* sub-menu  */
+.top21 ul li:hover > ul{
+    display: block;
+}
+/* sub-sub-menu  */
+.top21 ul ul ul{
+    margin-left: 101px;
+    position: absolute;
+    top: 1px;
+}
+.top21 ul ul li:hover{
+    background-color:#6a4a3a;
+}
+.pesq{
+    border-radius: 5px;
+    padding: 8px;
+    border: solid #533a26 4px;
+    background-color:  #f5f6fa;
+    color: #8795a2;
+    width: 50%;
+}
+.bot{
+    width: 40px;   
+    height: 40px; 
+    border: #533a26 solid 4px;
+    border-radius: 5px;       
+    margin-right: 50px;
+}
+.prod{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 600px;
+    background-color: #533a26;
+}
+.prod img{
+    border-radius: 5px;
+    float: left;
+    margin: 30px;
+    width: 340px;
+    border: solid rgb(0, 0, 0) 1px;
+}
+.banner{
+    margin-bottom:-5px;
+}
+.banner img{
+    width: 100%;
+}
+.marg{
+    margin: 20px;
+}
+h2{
+    text-align: center;
+}
+
+.clear{
+    clear: both;
+}

@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Estilização de Formulário</title>
+    <style>
+        body {
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+            background-color: grey;
+        }
+
+        #conteiner {
+            margin: 0 auto;
+            width: 50%;
+            background-color: white;
+            border-radius: 5px;
+            padding: 50px;
+        }
+
+        fieldset {
+            background-color: rgb(227, 224, 224);
+            border: 1px;
+            margin: 10px;
+        }
+
+        legend {
+            font-weight: bold;
+        }
+
+        label {
+            display: block;
+            cursor: pointer;
+        }
+
+        .cont {
+            display: inline;
+            cursor: pointer;
+        }
+
+        .cc {
+            width: 100%;
+        }
+
+        textarea {
+            width: 100%;
+            height: 80px;
+            resize: none;
+        }
+
+        .bot {
+            margin: 10px 0 10px;
+        }
+    </style>
+</head>
+<body>
+    <div id="conteiner">
+        <h1>Formulário Estilizado</h1>
+        <form method="post" action="#">
+            <fieldset>
+                <legend>Dados da Conta</legend>
+                <div>
+                    <label for="nome">Nome:</label>
+                    <input class="cc" type="text" name="nome" id="nome">
+                </div>
+                <div>
+                    <label for="email">E-mail:</label>
+                    <input class="cc" type="text" name="email" id="email">
+                </div>
+                <div>
+                    <label for="url">URL:</label>
+                    <input class="cc" type="text" name="url" id="url">
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Comentarios</legend>
+                <div>
+                    <label for="meng">Mensagem:</label>
+                    <textarea name="mensagem" id="meng"></textarea>
+                </div>
+            </fieldset>
+            <fieldset>
+                <legend>Lembrar de mim?</legend>
+                <div>
+                    <input type="radio" name="Lembrar" id="sim" value="sim">
+                    <label class="cont" for="sim">Sim</label>
+                    <input type="radio" name="Lembrar" id="nao" value="nao">
+                    <label class="cont" for="nao">Não</label>
+                </div>
+            </fieldset>
+            <div class="bot">
+                <button type="submit">Enviar dados</button>
+            </div>
+
+    </div>
+    </form>
+</body>
+</html>
