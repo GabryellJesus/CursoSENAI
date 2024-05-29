@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>FlexBox</title>
+    <style>
+        .conteudo {
+            background-color: rgb(70, 69, 69);
+            height: 400px;
+            display: flex;
+            /*comportamento do intem - linha ou coluna*/
+            /*row, row-reverse, column, column-reverse*/
+            flex-direction: row;
+            /*quebra do layout*/
+            /*nowwrap, wrap, wrap-reverse */
+            flex-wrap: wrap;
+            /*distribuição dos itens na horizontal*/
+            /*flex-star, flex-end, center, space-between, space-around*/
+            justify-content: space-around;
+            /*distribuição dos itens na vertical*/
+            /* stretch, center, flex-star, flex-end, baseline*/
+            align-items: center;
+        }
+
+        .order1 {
+            order: 1;
+        }
+
+        .order2 {
+            order: 2;
+        }
+
+        .order3 {
+            order: 3;
+        }
+
+        .order4 {
+            order: 4;
+        }
+
+        .itemA {
+            flex-grow: 1;
+        }
+
+        .itemB {
+            flex-grow: 2;
+        }
+
+        .item {
+            width: 200px;
+            height: 100px;
+            margin: 10px;
+            background: rgb(244, 241, 241);
+            border: 1px, solid, rgb(18, 7, 223);
+        }
+    </style>
+</head>
+<body>
+    <h1>Flex Box</h1>
+    <div class="conteudo">
+        <div class="item">01</div>
+        <div class="item">02</div>
+        <div class="item">03</div>
+        <div class="item">04</div>
+    </div>
+</body>
+</html>
