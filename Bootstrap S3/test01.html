@@ -3,29 +3,38 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="css/bootstrap-grid.min.css">
-    <title>Document</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Colunas e Linhas</title>
+    <style>
+        .marcador {
+            background-color: #fe9d9d;
+            border: solid #f44646 1px;
+        }
+
+        .marcador-conteiner {
+            background-color: #5bf946;
+            border: solid #36ae26 1px;
+        }
+    </style>
 </head>
 <body>
-    <div class="container">
-        <div class="row">
-            <div class="col">
-                1 of 2
-            </div>
-            <div class="col">
-                2 of 2
-            </div>
+    <div class="container marcador-conteiner">
+        <div class="row marcador">
+            MENU
         </div>
         <div class="row">
-            <div class="col">
-                1 of 3
+            <div class="marcador col-12 col-sm-6 col-lg-2">
+                CONTÉUDO 01
             </div>
-            <div class="col">
-                2 of 3
+            <div class="marcador col-12 col-sm-6 col-lg-6">
+                CONTÉUDO 02
             </div>
-            <div class="col">
-                3 of 3
+            <div class="marcador col-12 col-sm-12 col-lg-4">
+                CONTÉUDO 03
             </div>
+        </div>
+        <div class="row marcador">
+            RODAPÉ
         </div>
     </div>
 </body>
