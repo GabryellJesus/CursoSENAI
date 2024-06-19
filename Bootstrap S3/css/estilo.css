@@ -1,0 +1,94 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Fjalla+One&display=swap');
+
+
+.marcador {
+    background-color: #141011;
+    border: solid #ffffff 1px;
+}
+
+
+.marcador img {
+    width: 95%;
+}
+
+p {
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    text-align: justify;
+    padding-top: 20px;
+}
+
+h3 {
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.foot img {
+    width: 5%;
+}
+
+.foot_text {
+    font-family: 'Bebas Neue', cursive;
+    color: white;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.foot iframe {
+    height: 90%;
+    width: 90%;
+    margin: 10px;
+}
+
+iframe {
+    width: 100%;
+    margin: 0;
+}
+
+.conteudo {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.item {
+    width: 30%;
+    height: 150px;
+    margin: 5px;
+    flex-grow: 0;
+    flex-shrink: 1;
+    border-radius: 10px;
+    border: 1px rgb(234, 142, 5) solid;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+.itemA {
+    background-image: url(../img/lanche_01.jpg);
+}
+
+.itemB {
+    background-image: url(../img/lanche_02.jpg);
+}
+
+.itemC {
+    background-image: url(../img/lanche_03.jpg);
+}
+
+.itemD {
+    background-image: url(../img/lanche_04.jpg);
+}
+
+.itemF {
+    background-image: url(../img/lanche_05.jpg);
+}
+
+.itemG {
+    background-image: url(../img/lanche_06.jpg);
+}
